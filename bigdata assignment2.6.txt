@@ -1,0 +1,82 @@
+                                         
+                                            Assignment 2.6
+
+1)Even Odd Numbers between 2 given numbers
+        import java.util.Scanner;
+
+        public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		System.out.println("Even");
+		for(int i=a;i<b;i++)
+		{
+			if(i%2==0)
+				System.out.println(i);
+			
+		}
+		System.out.println("Odd");
+		for(int i=a;i<b;i++)
+		{
+			if(i%2!=0)
+			  System.out.println(i);
+		}
+	}
+	}
+
+     
+
+2)First Ten Multiples Of a given number
+             import java.util.Scanner;
+
+           public class Main {
+                int a,b;
+	public static void main(String[] args) {
+                                a=0;
+		Scanner sc=new Scanner(System.in);
+		 b=sc.nextInt();
+		for(int i=1;i<11;i++)
+		{
+			a=b*i;
+			System.out.println(a);
+		}
+
+	}
+
+             }
+
+
+
+
+3)Method Overloading : sum()
+       import java.util.Scanner;
+
+        public class Main {
+	public static void main(String []args)
+	{
+		int a,b,c,d,e;
+		Scanner sc=new Scanner(System.in);
+		 a=sc.nextInt();
+		 b=sc.nextInt();
+		 c=sc.nextInt();
+				
+		sum(a,b);
+		sum(a,b,c);
+	}
+		public static void sum(int a,int b)
+		{
+			d=a+b;
+			System.out.println(x);
+			return;
+		}
+		public static void sum(int a,int b,int c)
+		{
+			e=a+b+c;
+			System.out.println(d);
+			return ;
+		}
+	}
+
+
